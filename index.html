@@ -129,7 +129,7 @@
         <div class="center_line wow fadeInRight ">
         </div>
         <p class="about_text">
-          Experimente a magia de Serrambi, Pernambuco em nossa casa de praia como nunca antes! Vistas deslumbrantes para o mar e acesso direto à praia. Um verdadeiro refúgio costeiro perfeito para relaxar e se divertir com o seu grupo de amigos ou com a sua família!
+          Experimente a magia de Serrambi, Pernambuco em nossa casa de praia como nunca antes! Vistas deslumbrantes para o mar e acesso direto à praia. Um verdadeiro refúgio costeiro perfeito para relaxar e se divertir com o seu grupo de amigos ou com a sua família! Além da casa e da praia, há muitas outras atividades externas para desfrutar! Faça um passeio de barco para ver os golfinhos, explore as piscinas naturais ou experimente a deliciosa culinária local. 
         </p>
         <div id="about" class="about carousel slide">
           <!-- Indicators -->
@@ -975,7 +975,7 @@
 
   <!-- Testimonials start -->
 
-  <div class="gap">
+  <div class="micro_grap">
   </div>
   <div id="testimonials" class="testimonials light carousel slide">
     <div class="mask">
@@ -1055,43 +1055,6 @@
     </div>
   </div>
 
-  <!-- Modal HTML -->
-
-  <div id="myModal" class="modal fade eventime_modal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            &times; </button>
-          <h4 class="modal-title">
-            Jeremy Crackevich </h4>
-          <small>
-            Featured guest </small>
-        </div>
-        <div class="modal-body">
-          <img src="images/featured_speaker.jpg" alt="img10" />
-          <p>
-            <br>
-            CCurabitur feugiat nulla ut leo commodo, eu varius lectus viverra. Aliquam erat volutpat. Proin
-            efficitur facilisis augue id sodales. Integer mi felis, bibendum ut rutrum et, rhoncus et mi. Aliquam
-            facilisis justo ac scelerisque commodo. Cras interdum sollicitudin neque eget malesuada. In vel
-            tincidunt lectus. Proin odio urna, finibus finibus blandit eleifend, tempor et velit. Sed viverra lacus
-            eu varius finibus. Donec a lectus in leo pharetra euismod. Donec eget libero a turpis mattis vehicula.
-          </p>
-        </div>
-        <div class="modal-footer">
-          <a href="#" class="contact_icon fa fa-facebook graybtn graytxt">
-          </a>
-          <a href="#" class="contact_icon fa fa-twitter graybtn graytxt">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal end -->
-
-
   <!-- Contact start -->
 
   <div id="contact_menu">
@@ -1138,7 +1101,8 @@
         </p>
         <a href="https://www.instagram.com/kalabeachhouse/" class="contact_icon fa fa-instagram" target="_blank">
         </a>
-        <a href="+5591993041503" class="contact_icon fa fa-whatsapp" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=5591993041503&text=Oi%2C+encontrei+o+site+de+voc%C3%AAs+e+gostaria+de+fazer+uma+reserva%21
+        " class="contact_icon fa fa-whatsapp" target="_blank">
         </a>
       </div>
       <div class="mini_gap">
@@ -1169,49 +1133,11 @@
     <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 
-    <!--Attetion! You need to replace follow Google MAP APi-->
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7pFb_7-IHXmx8Tr91ShRxSUePgUeyWdw"></script>
-
     <!-- JS libraries -->
     <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
     <script type="text/javascript"
       src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script type="text/javascript" src="js/minify.js"></script>
-    <script type="text/javascript">
-      //<![CDATA[
-      $('#clock').countdown('2015/10/10', function (event) {
-        $(this).html(event.strftime('%D days %H:%M:%S'));
-      });
-      // Google Map
-      google.maps.event.addDomListener(window, 'load', init);
-      function init() {
-        // Basic options for a simple Google Map
-        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-        var mapOptions = {
-          // How zoomed in you want the map to start at (always required)
-          zoom: 18,
-          scrollwheel: false,
-          // The latitude and longitude to center the map (always required)
-          center: new google.maps.LatLng(40.6697, -73.9500), // New York
-          // How you would like to style the map. 
-          // This is where you would paste any style found on Snazzy Maps.
-          styles: [{ "featureType": "landscape", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "stylers": [{ "saturation": -100 }, { "lightness": 51 }, { "visibility": "simplified" }] }, { "featureType": "road.highway", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "road.arterial", "stylers": [{ "saturation": -100 }, { "lightness": 30 }, { "visibility": "on" }] }, { "featureType": "road.local", "stylers": [{ "saturation": -100 }, { "lightness": 40 }, { "visibility": "on" }] }, { "featureType": "transit", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "administrative.province", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "on" }, { "lightness": -25 }, { "saturation": -100 }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }]
-        };
-        // Get the HTML DOM element that will contain your map 
-        var mapElement = document.getElementById('map');
-        // Create the Google Map using our element and options defined above
-        var map = new google.maps.Map(mapElement, mapOptions);
-        // Let's also add a marker while we're at it
-        var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(40.6700, -73.9500),
-          icon: 'images/marker.svg',
-          map: map,
-          title: 'Title!'
-        });
-      }
-            //]]>
-    </script>
 </body>
 
 </html>
