@@ -52,162 +52,162 @@ font-size: 120%;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-.icon-tourism-icons_anchor:before { content: '\e800'; } /* '' */
-.icon-tourism-icons_vagon:before { content: '\e801'; } /* '' */
-.icon-tourism-icons_underground:before { content: '\e802'; } /* '' */
-.icon-tourism-icons_train:before { content: '\e803'; } /* '' */
-.icon-tourism-icons_scooter:before { content: '\e804'; } /* '' */
-.icon-tourism-icons_scateboard:before { content: '\e805'; } /* '' */
-.icon-tourism-icons_roller:before { content: '\e806'; } /* '' */
-.icon-tourism-icons_roller-skate:before { content: '\e807'; } /* '' */
-.icon-tourism-icons_rocket:before { content: '\e808'; } /* '' */
-.icon-tourism-icons_plane:before { content: '\e809'; } /* '' */
-.icon-tourism-icons_overground:before { content: '\e80a'; } /* '' */
-.icon-tourism-icons_navigation:before { content: '\e80b'; } /* '' */
-.icon-tourism-icons_locomotive:before { content: '\e80c'; } /* '' */
-.icon-tourism-icons_lift:before { content: '\e80d'; } /* '' */
-.icon-tourism-icons_jet-ski:before { content: '\e80e'; } /* '' */
-.icon-tourism-icons_golf-cart:before { content: '\e80f'; } /* '' */
-.icon-tourism-icons_compass:before { content: '\e810'; } /* '' */
-.icon-tourism-icons_chopper:before { content: '\e811'; } /* '' */
-.icon-tourism-icons_car:before { content: '\e812'; } /* '' */
-.icon-tourism-icons_bycicle:before { content: '\e813'; } /* '' */
-.icon-tourism-icons_bus:before { content: '\e814'; } /* '' */
-.icon-tourism-icons_boat:before { content: '\e815'; } /* '' */
-.icon-tourism-icons_baloon:before { content: '\e816'; } /* '' */
-.icon-tourism-icons_toast:before { content: '\e817'; } /* '' */
-.icon-tourism-icons_tea:before { content: '\e818'; } /* '' */
-.icon-tourism-icons_take-away-coffee:before { content: '\e819'; } /* '' */
-.icon-tourism-icons_sugar:before { content: '\e81a'; } /* '' */
-.icon-tourism-icons_soup:before { content: '\e81b'; } /* '' */
-.icon-tourism-icons_restaurant:before { content: '\e81c'; } /* '' */
-.icon-tourism-icons_pot:before { content: '\e81d'; } /* '' */
-.icon-tourism-icons_pepper:before { content: '\e81e'; } /* '' */
-.icon-tourism-icons_lunch:before { content: '\e81f'; } /* '' */
-.icon-tourism-icons_lemonade:before { content: '\e820'; } /* '' */
-.icon-tourism-icons_knife:before { content: '\e821'; } /* '' */
-.icon-tourism-icons_ice-cream:before { content: '\e822'; } /* '' */
-.icon-tourism-icons_hot-tea:before { content: '\e823'; } /* '' */
-.icon-tourism-icons_grill:before { content: '\e824'; } /* '' */
-.icon-tourism-icons_fast-food:before { content: '\e825'; } /* '' */
-.icon-tourism-icons_dinner:before { content: '\e826'; } /* '' */
-.icon-tourism-icons_cupcake:before { content: '\e827'; } /* '' */
-.icon-tourism-icons_coffee-mug:before { content: '\e828'; } /* '' */
-.icon-tourism-icons_coffee-machine:before { content: '\e829'; } /* '' */
-.icon-tourism-icons_coffee-beans:before { content: '\e82a'; } /* '' */
-.icon-tourism-icons_coctail:before { content: '\e82b'; } /* '' */
-.icon-tourism-icons_chicken:before { content: '\e82c'; } /* '' */
-.icon-tourism-icons_wallet:before { content: '\e82d'; } /* '' */
-.icon-tourism-icons_tickets:before { content: '\e82e'; } /* '' */
-.icon-tourism-icons_tickets-(2):before { content: '\e82f'; } /* '' */
-.icon-tourism-icons_ticket:before { content: '\e830'; } /* '' */
-.icon-tourism-icons_tag:before { content: '\e831'; } /* '' */
-.icon-tourism-icons_qr-code:before { content: '\e832'; } /* '' */
-.icon-tourism-icons_qr-code-scan:before { content: '\e833'; } /* '' */
-.icon-tourism-icons_phone-book:before { content: '\e834'; } /* '' */
-.icon-tourism-icons_passport:before { content: '\e835'; } /* '' */
-.icon-tourism-icons_online-checkin:before { content: '\e836'; } /* '' */
-.icon-tourism-icons_international-pass:before { content: '\e837'; } /* '' */
-.icon-tourism-icons_id:before { content: '\e838'; } /* '' */
-.icon-tourism-icons_id-card:before { content: '\e839'; } /* '' */
-.icon-tourism-icons_fling-ticket:before { content: '\e83a'; } /* '' */
-.icon-tourism-icons_flight-card:before { content: '\e83b'; } /* '' */
-.icon-tourism-icons_fingerprint:before { content: '\e83c'; } /* '' */
-.icon-tourism-icons_credit-cards:before { content: '\e83d'; } /* '' */
-.icon-tourism-icons_credit-card:before { content: '\e83e'; } /* '' */
-.icon-tourism-icons_conductor:before { content: '\e83f'; } /* '' */
-.icon-tourism-icons_check-in:before { content: '\e840'; } /* '' */
-.icon-tourism-icons_check-in-point:before { content: '\e841'; } /* '' */
-.icon-tourism-icons_barcode:before { content: '\e842'; } /* '' */
-.icon-tourism-icons_tower:before { content: '\e843'; } /* '' */
-.icon-tourism-icons_tower-clock:before { content: '\e844'; } /* '' */
-.icon-tourism-icons_tower-2:before { content: '\e845'; } /* '' */
-.icon-tourism-icons_pyrimad:before { content: '\e846'; } /* '' */
-.icon-tourism-icons_pyramids:before { content: '\e847'; } /* '' */
-.icon-tourism-icons_monument:before { content: '\e848'; } /* '' */
-.icon-tourism-icons_monument-gate:before { content: '\e849'; } /* '' */
-.icon-tourism-icons_monument-13:before { content: '\e84a'; } /* '' */
-.icon-tourism-icons_monument-11:before { content: '\e84b'; } /* '' */
-.icon-tourism-icons_monument-10:before { content: '\e84c'; } /* '' */
-.icon-tourism-icons_monument-7:before { content: '\e84d'; } /* '' */
-.icon-tourism-icons_monument-6:before { content: '\e84e'; } /* '' */
-.icon-tourism-icons_monument-5:before { content: '\e84f'; } /* '' */
-.icon-tourism-icons_single-bed:before { content: '\e850'; } /* '' */
-.icon-tourism-icons_toilet-paper:before { content: '\e851'; } /* '' */
-.icon-tourism-icons_towels:before { content: '\e852'; } /* '' */
-.icon-tourism-icons_travel:before { content: '\e853'; } /* '' */
-.icon-tourism-icons_tv:before { content: '\e854'; } /* '' */
-.icon-tourism-icons_valet:before { content: '\e855'; } /* '' */
-.icon-tourism-icons_castle-2:before { content: '\e856'; } /* '' */
-.icon-tourism-icons_castle-3:before { content: '\e857'; } /* '' */
-.icon-tourism-icons_castle-4:before { content: '\e858'; } /* '' */
-.icon-tourism-icons_castle-5:before { content: '\e859'; } /* '' */
-.icon-tourism-icons_castle:before { content: '\e85a'; } /* '' */
-.icon-tourism-icons_church-2:before { content: '\e85b'; } /* '' */
-.icon-tourism-icons_church-3:before { content: '\e85c'; } /* '' */
-.icon-tourism-icons_church:before { content: '\e85d'; } /* '' */
-.icon-tourism-icons_factory:before { content: '\e85e'; } /* '' */
-.icon-tourism-icons_house:before { content: '\e85f'; } /* '' */
-.icon-tourism-icons_islamic-monument:before { content: '\e860'; } /* '' */
-.icon-tourism-icons_monument-2:before { content: '\e861'; } /* '' */
-.icon-tourism-icons_monument-3:before { content: '\e862'; } /* '' */
-.icon-tourism-icons_monument-4:before { content: '\e863'; } /* '' */
-.icon-tourism-icons_shower:before { content: '\e864'; } /* '' */
-.icon-tourism-icons_room-service:before { content: '\e865'; } /* '' */
-.icon-tourism-icons_pool:before { content: '\e866'; } /* '' */
-.icon-tourism-icons_no-animal-alowed:before { content: '\e867'; } /* '' */
-.icon-tourism-icons_luggage-carry:before { content: '\e868'; } /* '' */
-.icon-tourism-icons_lamp:before { content: '\e869'; } /* '' */
-.icon-tourism-icons_key:before { content: '\e86a'; } /* '' */
-.icon-tourism-icons_hotel-building:before { content: '\e86b'; } /* '' */
-.icon-tourism-icons_free-wifi:before { content: '\e86c'; } /* '' */
-.icon-tourism-icons_fitness:before { content: '\e86d'; } /* '' */
-.icon-tourism-icons_fire-extinguisher:before { content: '\e86e'; } /* '' */
-.icon-tourism-icons_double-bed:before { content: '\e86f'; } /* '' */
-.icon-tourism-icons_dnd:before { content: '\e870'; } /* '' */
-.icon-tourism-icons_cup:before { content: '\e871'; } /* '' */
-.icon-tourism-icons_camera:before { content: '\e872'; } /* '' */
-.icon-tourism-icons_animal-allowed:before { content: '\e873'; } /* '' */
-.icon-tourism-icons_tree:before { content: '\e874'; } /* '' */
-.icon-tourism-icons_trailer:before { content: '\e875'; } /* '' */
-.icon-tourism-icons_tent:before { content: '\e876'; } /* '' */
-.icon-tourism-icons_swiss-knife:before { content: '\e877'; } /* '' */
-.icon-tourism-icons_temperature:before { content: '\e878'; } /* '' */
-.icon-tourism-icons_watermelon:before { content: '\e879'; } /* '' */
-.icon-tourism-icons_acorn:before { content: '\e87a'; } /* '' */
-.icon-tourism-icons_back-pack:before { content: '\e87b'; } /* '' */
-.icon-tourism-icons_barbeque:before { content: '\e87c'; } /* '' */
-.icon-tourism-icons_bear:before { content: '\e87d'; } /* '' */
-.icon-tourism-icons_bird-house:before { content: '\e87e'; } /* '' */
-.icon-tourism-icons_butterfly:before { content: '\e87f'; } /* '' */
-.icon-tourism-icons_direction:before { content: '\e880'; } /* '' */
-.icon-tourism-icons_fire-lamp:before { content: '\e881'; } /* '' */
-.icon-tourism-icons_fire:before { content: '\e882'; } /* '' */
-.icon-tourism-icons_forest:before { content: '\e883'; } /* '' */
-.icon-tourism-icons_hand-lamp:before { content: '\e884'; } /* '' */
-.icon-tourism-icons_mountain-track:before { content: '\e885'; } /* '' */
-.icon-tourism-icons_mountains:before { content: '\e886'; } /* '' */
-.icon-tourism-icons_mushrooms:before { content: '\e887'; } /* '' */
-.icon-tourism-icons_north-forest:before { content: '\e888'; } /* '' */
-.icon-tourism-icons_objective:before { content: '\e889'; } /* '' */
-.icon-tourism-icons_picnik:before { content: '\e88a'; } /* '' */
-.icon-tourism-icons_plant:before { content: '\e88b'; } /* '' */
-.icon-tourism-icons_swimming:before { content: '\e88c'; } /* '' */
-.icon-tourism-icons_swimming-suit:before { content: '\e88d'; } /* '' */
-.icon-tourism-icons_sunny-beach:before { content: '\e88e'; } /* '' */
-.icon-tourism-icons_sunglasses:before { content: '\e88f'; } /* '' */
-.icon-tourism-icons_sun:before { content: '\e890'; } /* '' */
-.icon-tourism-icons_scuba-diving:before { content: '\e891'; } /* '' */
-.icon-tourism-icons_sandcastle-01:before { content: '\e892'; } /* '' */
-.icon-tourism-icons_sand-bucket:before { content: '\e893'; } /* '' */
-.icon-tourism-icons_sailing:before { content: '\e894'; } /* '' */
-.icon-tourism-icons_life-vest:before { content: '\e895'; } /* '' */
-.icon-tourism-icons_island:before { content: '\e896'; } /* '' */
-.icon-tourism-icons_ice-cream-on-stick:before { content: '\e897'; } /* '' */
-.icon-tourism-icons_fresh:before { content: '\e898'; } /* '' */
-.icon-tourism-icons_flippers:before { content: '\e899'; } /* '' */
-.icon-tourism-icons_flip-flops:before { content: '\e89a'; } /* '' */
-.icon-tourism-icons_fishing:before { content: '\e89b'; } /* '' */
-.icon-tourism-icons_fish:before { content: '\e89c'; } /* '' */
-.icon-tourism-icons_beach:before { content: '\e89d'; } /* '' */
-.icon-tourism-icons_beach-house:before { content: '\e89e'; } /* '' */
+.icon-tourism-icons_anchor:before { content: '\e800'; }
+.icon-tourism-icons_vagon:before { content: '\e801'; }
+.icon-tourism-icons_underground:before { content: '\e802'; }
+.icon-tourism-icons_train:before { content: '\e803'; }
+.icon-tourism-icons_scooter:before { content: '\e804'; }
+.icon-tourism-icons_scateboard:before { content: '\e805'; }
+.icon-tourism-icons_roller:before { content: '\e806'; }
+.icon-tourism-icons_roller-skate:before { content: '\e807'; }
+.icon-tourism-icons_rocket:before { content: '\e808'; }
+.icon-tourism-icons_plane:before { content: '\e809'; }
+.icon-tourism-icons_overground:before { content: '\e80a'; }
+.icon-tourism-icons_navigation:before { content: '\e80b'; }
+.icon-tourism-icons_locomotive:before { content: '\e80c'; }
+.icon-tourism-icons_lift:before { content: '\e80d'; }
+.icon-tourism-icons_jet-ski:before { content: '\e80e'; }
+.icon-tourism-icons_golf-cart:before { content: '\e80f'; }
+.icon-tourism-icons_compass:before { content: '\e810'; }
+.icon-tourism-icons_chopper:before { content: '\e811'; }
+.icon-tourism-icons_car:before { content: '\e812'; }
+.icon-tourism-icons_bycicle:before { content: '\e813'; }
+.icon-tourism-icons_bus:before { content: '\e814'; }
+.icon-tourism-icons_boat:before { content: '\e815'; }
+.icon-tourism-icons_baloon:before { content: '\e816'; }
+.icon-tourism-icons_toast:before { content: '\e817'; }
+.icon-tourism-icons_tea:before { content: '\e818'; }
+.icon-tourism-icons_take-away-coffee:before { content: '\e819'; }
+.icon-tourism-icons_sugar:before { content: '\e81a'; }
+.icon-tourism-icons_soup:before { content: '\e81b'; }
+.icon-tourism-icons_restaurant:before { content: '\e81c'; }
+.icon-tourism-icons_pot:before { content: '\e81d'; }
+.icon-tourism-icons_pepper:before { content: '\e81e'; }
+.icon-tourism-icons_lunch:before { content: '\e81f'; }
+.icon-tourism-icons_lemonade:before { content: '\e820'; }
+.icon-tourism-icons_knife:before { content: '\e821'; }
+.icon-tourism-icons_ice-cream:before { content: '\e822'; }
+.icon-tourism-icons_hot-tea:before { content: '\e823'; }
+.icon-tourism-icons_grill:before { content: '\e824'; }
+.icon-tourism-icons_fast-food:before { content: '\e825'; }
+.icon-tourism-icons_dinner:before { content: '\e826'; }
+.icon-tourism-icons_cupcake:before { content: '\e827'; }
+.icon-tourism-icons_coffee-mug:before { content: '\e828'; }
+.icon-tourism-icons_coffee-machine:before { content: '\e829'; }
+.icon-tourism-icons_coffee-beans:before { content: '\e82a'; }
+.icon-tourism-icons_coctail:before { content: '\e82b'; }
+.icon-tourism-icons_chicken:before { content: '\e82c'; }
+.icon-tourism-icons_wallet:before { content: '\e82d'; }
+.icon-tourism-icons_tickets:before { content: '\e82e'; }
+.icon-tourism-icons_tickets-(2):before { content: '\e82f'; }
+.icon-tourism-icons_ticket:before { content: '\e830'; }
+.icon-tourism-icons_tag:before { content: '\e831'; }
+.icon-tourism-icons_qr-code:before { content: '\e832'; }
+.icon-tourism-icons_qr-code-scan:before { content: '\e833'; }
+.icon-tourism-icons_phone-book:before { content: '\e834'; }
+.icon-tourism-icons_passport:before { content: '\e835'; }
+.icon-tourism-icons_online-checkin:before { content: '\e836'; }
+.icon-tourism-icons_international-pass:before { content: '\e837'; }
+.icon-tourism-icons_id:before { content: '\e838'; }
+.icon-tourism-icons_id-card:before { content: '\e839'; }
+.icon-tourism-icons_fling-ticket:before { content: '\e83a'; }
+.icon-tourism-icons_flight-card:before { content: '\e83b'; }
+.icon-tourism-icons_fingerprint:before { content: '\e83c'; }
+.icon-tourism-icons_credit-cards:before { content: '\e83d'; }
+.icon-tourism-icons_credit-card:before { content: '\e83e'; }
+.icon-tourism-icons_conductor:before { content: '\e83f'; }
+.icon-tourism-icons_check-in:before { content: '\e840'; }
+.icon-tourism-icons_check-in-point:before { content: '\e841'; }
+.icon-tourism-icons_barcode:before { content: '\e842'; }
+.icon-tourism-icons_tower:before { content: '\e843'; }
+.icon-tourism-icons_tower-clock:before { content: '\e844'; }
+.icon-tourism-icons_tower-2:before { content: '\e845'; }
+.icon-tourism-icons_pyrimad:before { content: '\e846'; }
+.icon-tourism-icons_pyramids:before { content: '\e847'; }
+.icon-tourism-icons_monument:before { content: '\e848'; }
+.icon-tourism-icons_monument-gate:before { content: '\e849'; }
+.icon-tourism-icons_monument-13:before { content: '\e84a'; }
+.icon-tourism-icons_monument-11:before { content: '\e84b'; }
+.icon-tourism-icons_monument-10:before { content: '\e84c'; }
+.icon-tourism-icons_monument-7:before { content: '\e84d'; }
+.icon-tourism-icons_monument-6:before { content: '\e84e'; }
+.icon-tourism-icons_monument-5:before { content: '\e84f'; }
+.icon-tourism-icons_single-bed:before { content: '\e850'; }
+.icon-tourism-icons_toilet-paper:before { content: '\e851'; }
+.icon-tourism-icons_towels:before { content: '\e852'; }
+.icon-tourism-icons_travel:before { content: '\e853'; }
+.icon-tourism-icons_tv:before { content: '\e854'; }
+.icon-tourism-icons_valet:before { content: '\e855'; }
+.icon-tourism-icons_castle-2:before { content: '\e856'; }
+.icon-tourism-icons_castle-3:before { content: '\e857'; }
+.icon-tourism-icons_castle-4:before { content: '\e858'; }
+.icon-tourism-icons_castle-5:before { content: '\e859'; }
+.icon-tourism-icons_castle:before { content: '\e85a'; }
+.icon-tourism-icons_church-2:before { content: '\e85b'; }
+.icon-tourism-icons_church-3:before { content: '\e85c'; }
+.icon-tourism-icons_church:before { content: '\e85d'; }
+.icon-tourism-icons_factory:before { content: '\e85e'; }
+.icon-tourism-icons_house:before { content: '\e85f'; }
+.icon-tourism-icons_islamic-monument:before { content: '\e860'; }
+.icon-tourism-icons_monument-2:before { content: '\e861'; }
+.icon-tourism-icons_monument-3:before { content: '\e862'; }
+.icon-tourism-icons_monument-4:before { content: '\e863'; }
+.icon-tourism-icons_shower:before { content: '\e864'; }
+.icon-tourism-icons_room-service:before { content: '\e865'; }
+.icon-tourism-icons_pool:before { content: '\e866'; }
+.icon-tourism-icons_no-animal-alowed:before { content: '\e867'; }
+.icon-tourism-icons_luggage-carry:before { content: '\e868'; }
+.icon-tourism-icons_lamp:before { content: '\e869'; }
+.icon-tourism-icons_key:before { content: '\e86a'; }
+.icon-tourism-icons_hotel-building:before { content: '\e86b'; }
+.icon-tourism-icons_free-wifi:before { content: '\e86c'; }
+.icon-tourism-icons_fitness:before { content: '\e86d'; }
+.icon-tourism-icons_fire-extinguisher:before { content: '\e86e'; }
+.icon-tourism-icons_double-bed:before { content: '\e86f'; }
+.icon-tourism-icons_dnd:before { content: '\e870'; }
+.icon-tourism-icons_cup:before { content: '\e871'; }
+.icon-tourism-icons_camera:before { content: '\e872'; }
+.icon-tourism-icons_animal-allowed:before { content: '\e873'; }
+.icon-tourism-icons_tree:before { content: '\e874'; }
+.icon-tourism-icons_trailer:before { content: '\e875'; }
+.icon-tourism-icons_tent:before { content: '\e876'; }
+.icon-tourism-icons_swiss-knife:before { content: '\e877'; }
+.icon-tourism-icons_temperature:before { content: '\e878'; }
+.icon-tourism-icons_watermelon:before { content: '\e879'; }
+.icon-tourism-icons_acorn:before { content: '\e87a'; }
+.icon-tourism-icons_back-pack:before { content: '\e87b'; }
+.icon-tourism-icons_barbeque:before { content: '\e87c'; }
+.icon-tourism-icons_bear:before { content: '\e87d'; }
+.icon-tourism-icons_bird-house:before { content: '\e87e'; }
+.icon-tourism-icons_butterfly:before { content: '\e87f'; }
+.icon-tourism-icons_direction:before { content: '\e880'; }
+.icon-tourism-icons_fire-lamp:before { content: '\e881'; }
+.icon-tourism-icons_fire:before { content: '\e882'; }
+.icon-tourism-icons_forest:before { content: '\e883'; }
+.icon-tourism-icons_hand-lamp:before { content: '\e884'; }
+.icon-tourism-icons_mountain-track:before { content: '\e885'; }
+.icon-tourism-icons_mountains:before { content: '\e886'; }
+.icon-tourism-icons_mushrooms:before { content: '\e887'; }
+.icon-tourism-icons_north-forest:before { content: '\e888'; }
+.icon-tourism-icons_objective:before { content: '\e889'; }
+.icon-tourism-icons_picnik:before { content: '\e88a'; }
+.icon-tourism-icons_plant:before { content: '\e88b'; }
+.icon-tourism-icons_swimming:before { content: '\e88c'; }
+.icon-tourism-icons_swimming-suit:before { content: '\e88d'; }
+.icon-tourism-icons_sunny-beach:before { content: '\e88e'; }
+.icon-tourism-icons_sunglasses:before { content: '\e88f'; }
+.icon-tourism-icons_sun:before { content: '\e890'; }
+.icon-tourism-icons_scuba-diving:before { content: '\e891'; }
+.icon-tourism-icons_sandcastle-01:before { content: '\e892'; }
+.icon-tourism-icons_sand-bucket:before { content: '\e893'; }
+.icon-tourism-icons_sailing:before { content: '\e894'; }
+.icon-tourism-icons_life-vest:before { content: '\e895'; }
+.icon-tourism-icons_island:before { content: '\e896'; }
+.icon-tourism-icons_ice-cream-on-stick:before { content: '\e897'; }
+.icon-tourism-icons_fresh:before { content: '\e898'; }
+.icon-tourism-icons_flippers:before { content: '\e899'; }
+.icon-tourism-icons_flip-flops:before { content: '\e89a'; }
+.icon-tourism-icons_fishing:before { content: '\e89b'; }
+.icon-tourism-icons_fish:before { content: '\e89c'; }
+.icon-tourism-icons_beach:before { content: '\e89d'; }
+.icon-tourism-icons_beach-house:before { content: '\e89e'; }

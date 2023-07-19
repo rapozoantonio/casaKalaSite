@@ -1015,7 +1015,7 @@ ul.stats li.icon_tur {
     text-align: center;
 }
 .tab-content {
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .count,
 .count_plus {
