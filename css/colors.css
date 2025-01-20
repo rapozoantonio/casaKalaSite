@@ -9,7 +9,7 @@ Primary use: PARK HOTEL HTML Template
 -------------------------------------------------------------------
    ================================================== */
 
-/* !------------------------------ Main color of template #cca770 ------------------------------
+/* !------------------------------ Main color of template #9E825E ------------------------------
    ================================================== */
 
 .menu-wrap a:focus,
@@ -37,7 +37,7 @@ a.navbar-brand:hover,
 .accommodation_item .room_title i,
 .contact a,
 .copyright span {
-  color: #fff;
+  color: #e5d9cc;
 }
 .contact_icon:hover,
 a.accordion_button:hover,
@@ -63,7 +63,7 @@ a.accordion_button:hover,
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover,
 #preloader {
-  background: #cca770;
+  background: #9E825E;
 }
 .first_line,
 .tabs_about .active a,
@@ -93,7 +93,7 @@ figure.parkhotel_img figcaption::before,
 .nav .open > a:hover,
 footer,
 .center_line {
-  border-color: #cca770;
+  border-color: #9E825E;
 }
 
 /* !------ SVG ------
@@ -109,9 +109,9 @@ footer,
 .light .left_arrow svg:hover,
 #home_slider .left_arrow,
 #home_slider .right_arrow {
-  fill: #cca770;
+  fill: #9E825E;
 }
-/* !------------------------------ All light part color #fff ------------------------------
+/* !------------------------------ All light part color #e5d9cc ------------------------------
    ================================================== */
 
 .button--itzel,
@@ -143,7 +143,7 @@ a.accordion_button:hover,
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover,
 #filterOptions li a {
-  color: #fff;
+  color: #e5d9cc;
 }
 .menu-wrap,
 .news_row,
@@ -153,18 +153,18 @@ a.accordion_button,
 #swipebox-overlay,
 #swipebox-bottom-bar,
 #swipebox-top-bar {
-  background-color: #fff;
+  background-color: #e5d9cc;
 }
 .menu-button::before {
   background: linear-gradient(
-    #fff 20%,
+    #e5d9cc 20%,
     transparent 20%,
     transparent 40%,
-    #fff 40%,
-    #fff 60%,
+    #e5d9cc 40%,
+    #e5d9cc 60%,
     transparent 60%,
     transparent 80%,
-    #fff 80%
+    #e5d9cc 80%
   );
 }
 /* !------ SVG ------
@@ -176,7 +176,7 @@ a.accordion_button,
 #testimonials .left_arrow svg,
 #home_slider .left_arrow:hover,
 #home_slider .right_arrow:hover {
-  fill: #fff;
+  fill: #e5d9cc;
 }
 /* !------------------------------ Black color #000 ------------------------------
    ================================================== */
@@ -255,7 +255,7 @@ footer,
    ================================================== */
 
 .nav_mask {
-  background: #fff;
+  background: #e5d9cc;
 }
 
 .menu-button {
@@ -324,12 +324,12 @@ footer,
   /* background-image: url('../images/bg_gallery.jpg') */
 }
 .contact {
-  background-image: url("../images/contacts.svg");
+  /* background-image: url("../images/contacts.svg"); */
 }
 .tab-content {
   background: #838383;
 }
 #testimonials {
   background-image: url("../images/pagina_testemunhos.jpg");
-  /* background: rgb(204,167,112);background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2NhNzcwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYjg5ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);background:-moz-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-webkit-gradient(linear,left bottom,right top,color-stop(0%,rgba(204,167,112,1)),color-stop(100%,rgba(204,184,157,1)));background:-webkit-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-o-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-ms-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);filter:progid: DXImageTransform.Microsoft.gradient( startColorstr='#cca770',endColorstr='#ccb89d',GradientType=1 );*/
+  /* background: rgb(204,167,112);background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2NhNzcwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYjg5ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);background:-moz-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-webkit-gradient(linear,left bottom,right top,color-stop(0%,rgba(204,167,112,1)),color-stop(100%,rgba(204,184,157,1)));background:-webkit-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-o-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:-ms-linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);background:linear-gradient(45deg,rgba(204,167,112,1) 0%,rgba(204,184,157,1) 100%);filter:progid: DXImageTransform.Microsoft.gradient( startColorstr='#9E825E',endColorstr='#ccb89d',GradientType=1 );*/
 }

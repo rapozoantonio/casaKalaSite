@@ -28,6 +28,7 @@
     <link href="css/header-section.css" rel="stylesheet">
     <link href="css/cta-section.css" rel="stylesheet">
     <link href="css/about-section.css" rel="stylesheet">
+    <link href="css/gallery-section.css" rel="stylesheet">
     <link href="css/testimonials-section.css" rel="stylesheet">
     <link href="css/contact-section.css" rel="stylesheet">
   </head>
@@ -85,7 +86,7 @@
             <svg class="laurel" viewBox="0 0 8 16" fill="none">
               <path d="M1 1C1 1 7 3 7 8C7 13 1 15 1 15" stroke="#222222" stroke-width="2" stroke-linecap="round" />
             </svg>
-            <span>Preferido<br class="mobile-break"> dos hóspedes</span>
+            <span style="color: #717171">Preferido<br class="mobile-break"> dos hóspedes</span>
             <svg class="laurel" viewBox="0 0 8 16" fill="none">
               <path d="M7 1C7 1 1 3 1 8C1 13 7 15 7 15" stroke="#222222" stroke-width="2" stroke-linecap="round" />
             </svg>
@@ -282,264 +283,289 @@
     </div>
     <!-- End about tabs -->
     <!-- Gallery start -->
-    <div id="gallery_menu" class="gallery">
-      <div class="mask" style="background-color:#333">
-        ">
-        <div class="title_center light ">
-          <div class="center_line light wow fadeInLeft">
-          </div>
-          <p class="wow fadeIn" style="color:#fff">
-            Galeria
-          </p>
+    <section id="gallery_menu" class="gallery-section">
+      <!-- Gallery Header -->
+      <div class="gallery-header">
+        <div class="title-wrapper">
+          <h2 class="gallery-title wow fadeIn">GALERIA</h2>
+          <div class="decorative-line wow fadeIn"></div>
+          <p class="gallery-subtitle wow fadeInUp">Conheça cada detalhe da Casa Kala</p>
         </div>
-        <div class="center_line light wow fadeInRight">
-        </div>
-        <div class="mini_gap">
-        </div>
-        <ul id="filterOptions">
-          <li class="active"><a href="#" class="all">Todos</a></li>
-          <li><a href="#" class="park">Casa Kala</a></li>
-          <li><a href="#" class="lake">Deck</a></li>
-          <li><a href="#" class="hotelspa">Experiências</a></li>
-        </ul>
       </div>
-    </div>
-    <ul class="ourHolder">
-      <li class="item photo" data-id="id-1" data-type="park">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_casa1.jpg" alt="fotoCasaKala" />
-          <figcaption>
-            <h2>
-              Casa <span>
-              Kala</span>
-            </h2>
-            <a href="images/4_pagina_casa1.jpg" title="Casa Kala" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-2" data-type="park">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_casa2.jpg" alt="fotoCasaKala2" />
-          <figcaption>
-            <h2>
-              Casa <span>
-              Kala</span>
-            </h2>
-            <a href="images/4_pagina_casa2.jpg" title="Casa Kala" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-3" data-type="park">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_casa3.jpg" alt="fotoCasaKala3" />
-          <figcaption>
-            <h2>
-              Casa <span>
-              Kala</span>
-            </h2>
-            <a href="images/4_pagina_casa3.jpg" title="Casa Kala" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-4" data-type="park">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_casa4.jpg" alt="fotoCasaKala4" />
-          <figcaption>
-            <h2>
-              Casa <span>
-              Kala</span>
-            </h2>
-            <a href="images/4_pagina_casa4.jpg" title="Casa Kala" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-5" data-type="park">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_casa5.jpg" alt="fotoCasaKala5" />
-          <figcaption>
-            <h2>
-              Casa <span>
-              Kala</span>
-            </h2>
-            <a href="images/4_pagina_casa5.jpg" title="Casa Kala" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-6" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_deck1.WEBP" alt="fotoDeck1" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/4_pagina_deck1.WEBP" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-7" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_deck2.jpg" alt="fotoDeck2" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/4_pagina_deck2.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-8" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_deck3.jpg" alt="fotoDeck3" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/4_pagina_deck3.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-9" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_deck4.jpg" alt="fotoDeck4" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/4_pagina_deck4.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-10" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_4_deck.jpg.jpg" alt="fotoDeck1" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/pagina_4_deck.jpg.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-11" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_4_deck2.jpg.jpg" alt="fotoDeck1" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/pagina_4_deck2.jpg.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-12" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_4_deck3.jpg.jpg" alt="fotoDeck1" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/pagina_4_deck3.jpg.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-13" data-type="lake">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_galeria.jpg.jpg" alt="fotoDeck1" />
-          <figcaption>
-            <h2>
-              De <span>
-              ck</span>
-            </h2>
-            <a href="images/pagina_galeria.jpg.jpg" title="Deck" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-14" data-type="hotelspa">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_exp3.jpg" alt="fotoExp3" />
-          <figcaption>
-            <h2>
-              Expe <span>
-              riências </span>
-            </h2>
-            <a href="images/4_pagina_exp3.jpg" title="Experiências" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-15" data-type="hotelspa">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_exp4.jpg" alt="fotoExp4" />
-          <figcaption>
-            <h2>
-              Expe <span>
-              riências </span>
-            </h2>
-            <a href="images/4_pagina_exp4.jpg" title="Experiências" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-16" data-type="hotelspa">
-        <figure class="parkhotel_img">
-          <img src="images/4_pagina_exp5.jpg" alt="fotoExp5" />
-          <figcaption>
-            <h2>
-              Expe <span>
-              riências </span>
-            </h2>
-            <a href="images/4_pagina_exp5.jpg" title="Experiências" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-17" data-type="hotelspa">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_4_cavalo.jpg.jpg" alt="fotoExp6" />
-          <figcaption>
-            <h2>
-              Expe <span>
-              riências </span>
-            </h2>
-            <a href="images/pagina_4_cavalo.jpg.jpg" title="Experiências" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="item photo" data-id="id-18" data-type="hotelspa">
-        <figure class="parkhotel_img">
-          <img src="images/pagina_4_experiencias.jpg.jpg" alt="fotoExp7" />
-          <figcaption>
-            <h2>
-              Expe <span>
-              riências </span>
-            </h2>
-            <a href="images/pagina_4_experiencias.jpg.jpg" title="Experiências" class="swipebox">
-            Saiba mais </a>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
+    
+      <!-- Gallery Filter -->
+      <div class="gallery-filter wow fadeIn">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="park">Casa Kala</button>
+        <button class="filter-btn" data-filter="lake">Deck</button>
+        <button class="filter-btn" data-filter="hotelspa">Experiências</button>
+      </div>
+    
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Casa Kala (park) Items -->
+        <div class="gallery-item" data-type="park">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_casa1.jpg" alt="fotoCasaKala" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Casa Kala</h3>
+              <a href="images/4_pagina_casa1.jpg" class="swipebox" title="Casa Kala">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="park">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_casa2.jpg" alt="fotoCasaKala2" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Casa Kala</h3>
+              <a href="images/4_pagina_casa2.jpg" class="swipebox" title="Casa Kala">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="park">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_casa3.jpg" alt="fotoCasaKala3" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Casa Kala</h3>
+              <a href="images/4_pagina_casa3.jpg" class="swipebox" title="Casa Kala">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="park">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_casa4.jpg" alt="fotoCasaKala4" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Casa Kala</h3>
+              <a href="images/4_pagina_casa4.jpg" class="swipebox" title="Casa Kala">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="park">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_casa5.jpg" alt="fotoCasaKala5" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Casa Kala</h3>
+              <a href="images/4_pagina_casa5.jpg" class="swipebox" title="Casa Kala">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Deck (lake) Items -->
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_deck1.WEBP" alt="fotoDeck1" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/4_pagina_deck1.WEBP" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_deck2.jpg" alt="fotoDeck2" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/4_pagina_deck2.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_deck3.jpg" alt="fotoDeck3" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/4_pagina_deck3.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_deck4.jpg" alt="fotoDeck4" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/4_pagina_deck4.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_4_deck.jpg.jpg" alt="fotoDeck1" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/pagina_4_deck.jpg.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_4_deck2.jpg.jpg" alt="fotoDeck1" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/pagina_4_deck2.jpg.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_4_deck3.jpg.jpg" alt="fotoDeck1" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/pagina_4_deck3.jpg.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="lake">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_galeria.jpg.jpg" alt="fotoDeck1" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Deck</h3>
+              <a href="images/pagina_galeria.jpg.jpg" class="swipebox" title="Deck">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Experiências (hotelspa) Items -->
+        <div class="gallery-item" data-type="hotelspa">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_exp3.jpg" alt="fotoExp3" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Experiências</h3>
+              <a href="images/4_pagina_exp3.jpg" class="swipebox" title="Experiências">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="hotelspa">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_exp4.jpg" alt="fotoExp4" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Experiências</h3>
+              <a href="images/4_pagina_exp4.jpg" class="swipebox" title="Experiências">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="hotelspa">
+          <div class="gallery-item-inner">
+            <img src="images/4_pagina_exp5.jpg" alt="fotoExp5" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Experiências</h3>
+              <a href="images/4_pagina_exp5.jpg" class="swipebox" title="Experiências">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="hotelspa">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_4_cavalo.jpg.jpg" alt="fotoExp6" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Experiências</h3>
+              <a href="images/pagina_4_cavalo.jpg.jpg" class="swipebox" title="Experiências">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="gallery-item" data-type="hotelspa">
+          <div class="gallery-item-inner">
+            <img src="images/pagina_4_experiencias.jpg.jpg" alt="fotoExp7" loading="lazy">
+            <div class="gallery-overlay">
+              <h3>Experiências</h3>
+              <a href="images/pagina_4_experiencias.jpg.jpg" class="swipebox" title="Experiências">
+                <span>Ver mais</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  // Filter functionality
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Remove active class from all buttons
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      // Add active class to clicked button
+      button.classList.add('active');
+
+      const filterValue = button.getAttribute('data-filter');
+
+      // Filter items with animation
+      galleryItems.forEach(item => {
+        if (filterValue === 'all' || item.getAttribute('data-type') === filterValue) {
+          item.style.opacity = '0';
+          item.style.display = 'block';
+          setTimeout(() => {
+            item.style.opacity = '1';
+          }, 100);
+        } else {
+          item.style.opacity = '0';
+          setTimeout(() => {
+            item.style.display = 'none';
+          }, 300);
+        }
+      });
+    });
+  });
+
+  // Initialize Swipebox
+  if (typeof $.swipebox === 'function') {
+    $('.swipebox').swipebox({
+      useCSS: true,
+      useSVG: true,
+      hideBarsDelay: 3000,
+    });
+  }
+});
+    </script>
     <!-- End gallery -->
     <!-- Testimonials start -->
     <div class="micro_grap">

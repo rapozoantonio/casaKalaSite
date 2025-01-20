@@ -24,7 +24,7 @@
 
 .testimonial-title {
   font-size: clamp(2rem, 5vw, 3rem);
-  color: #ffffff !important;
+  color: #e5d9cc !important;
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: 600;
@@ -32,7 +32,7 @@
 }
 
 .testimonial-subtitle {
-  color: #ffffff !important;
+  color: #e5d9cc !important;
   text-align: center;
   font-size: clamp(1rem, 3vw, 1.2rem);
   opacity: 0.9;
