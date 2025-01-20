@@ -132,9 +132,9 @@
   }
   
   .gallery-overlay a {
-    color: var(--brand-turquoise);
+    color: var(--brand-orange);
     text-decoration: none;
-    border: 1px solid var(--brand-turquoise);
+    border: 1px solid var(--brand-orange);
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -144,7 +144,7 @@
   }
   
   .gallery-overlay a:hover {
-    background: var(--brand-turquoise);
+    background: var(--brand-green);
     color: #e5d9cc;
   }
   
@@ -173,3 +173,52 @@
       padding: 0 1rem;
     }
   }
+
+  #swipebox-close {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#swipebox-close:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#swipebox-overlay {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#swipebox-top-bar {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Make close button more visible */
+#swipebox-close::after {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Ensure overlay shows properly */
+#swipebox-overlay {
+    z-index: 9998;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+    #swipebox-close {
+        width: 35px;
+        height: 35px;
+        top: 10px;
+        right: 10px;
+    }
+}
