@@ -1,0 +1,302 @@
+#about_menu .experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px 16px;
+  background-color: #f9f9f9;
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.text-content {
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-content h2 {
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+  line-height: 1.2;
+}
+
+.text-content p {
+  font-size: clamp(16px, 2vw, 18px);
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 3vw, 24px);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.activity-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(16px, 3vw, 24px);
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.activity-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.activity-item .icon_tur {
+  font-size: clamp(28px, 4vw, 36px);
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.activity-item p {
+  font-size: clamp(14px, 1.5vw, 16px);
+  font-weight: 500;
+  color: #333;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.cta-text {
+  position: relative;
+}
+
+.attention-dot {
+  position: relative;
+  display: inline-block;
+}
+
+.ping {
+  animation: ping 2s infinite;
+  position: absolute;
+  background: #ff4444;
+}
+
+.dot {
+  background: #ff4444;
+}
+
+.cta-urgency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.cta-urgency p {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #ff4444;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.photo_part {
+  background-image: url("../images/pagina_3.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mask_r_transparate {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.title_tab {
+  text-align: left;
+}
+
+.title_tab h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.about_columns .content-wrapper {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 580px;
+  backdrop-filter: blur(10px);
+}
+
+.benefits-list .benefit-item {
+  margin-bottom: 24px;
+}
+
+.benefits-list h5 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.benefits-list p {
+  color: #262626;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ratings-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.rating-score {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.stars {
+  color: #ffd700;
+}
+
+.platform {
+  color: #717171;
+  font-size: 14px;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.cta-text {
+  position: relative;
+}
+
+.attention-dot {
+  position: relative;
+  display: inline-block;
+}
+
+.ping {
+  animation: ping 2s infinite;
+  position: absolute;
+  background: #ff4444;
+}
+
+.dot {
+  background: #ff4444;
+}
+
+.cta-urgency {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.cta-urgency p {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #ff4444;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.social-proof {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
+}
+
+.mini_gap {
+  margin-top: 24px;
+}
+
+/* Add these styles to your CSS file */
+.subtitle {
+  font-size: 1.2em;
+  color: white;
+  margin-top: 10px;
+}
+
+.content-wrapper {
+  margin: 20px;
+}
+
+.cta-section button:hover {
+  background: #3994d4;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin: 0px;
+    padding: 15px !important;
+  }
+}
+
+.ratings-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px; /* Added spacing between rating blocks */
+  margin-bottom: 24px;
+}
+
+.rating-item {
+  text-align: center;
+}
+
+.rating-score {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px; /* Added spacing between elements inside the block */
+}
+
+.stars {
+  color: #ffd700;
+  margin-bottom: 8px; /* Added spacing between stars and platform */
+}
+
+.platform {
+  color: #717171;
+  font-size: 14px;
+}

@@ -1,0 +1,144 @@
+#testimonials {
+  position: relative;
+  background-image: url("../images/pagina_3.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.testimonial-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  pointer-events: none;
+}
+
+.testimonial-content {
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: #ffffff !important;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.testimonial-subtitle {
+  color: #ffffff !important;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  opacity: 0.9;
+}
+
+.testimonial-card {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-text {
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  line-height: 1.6;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.testimonial-author {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.testimonial-author strong {
+  color: white;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.location {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.ratings {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  width: 40px;
+  height: 48px;
+}
+
+.carousel-control:hover {
+  opacity: 1;
+}
+
+.carousel-control.left {
+  left: 20px;
+}
+
+.carousel-control.right {
+  right: 20px;
+}
+
+.carousel-indicators {
+  position: static;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  border: 2px solid white;
+  margin: 0 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  #testimonials {
+    padding: 40px 20px;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  .testimonial-card {
+    margin: 0 20px;
+    padding: 1.5rem;
+  }
+}

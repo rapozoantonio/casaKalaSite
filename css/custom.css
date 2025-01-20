@@ -1430,7 +1430,7 @@ div.cs-skin-border {
     max-width: 600px;
 }
 .cs-skin-border>span {
-    border: 3px solid;
+    border: px solid;
     border-color: inherit;
     -webkit-transition: background 0.2s, border-color 0.2s;
     transition: background 0.2s, border-color 0.2s;
